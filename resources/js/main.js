@@ -54,6 +54,9 @@ $(document).ready(function () {
   $(".navbar-toggler").click(function () {
     $("#icon-toggler i").toggleClass("ion-close");
   });
+  $(".navbar-nav a").click(function () {
+    $("#icon-toggler i").toggleClass("ion-close");
+  });
 });
 
 // initiate wow.js
