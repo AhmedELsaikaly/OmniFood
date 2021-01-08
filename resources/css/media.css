@@ -1,0 +1,42 @@
+/* big  tablet to 1200px */
+@media (min-width: 1200px) {
+  .app-screen {
+    width: 50%;
+  }
+}
+
+/* big  tablet to 1200px */
+@media (max-width: 1200px) {
+  .app-screen {
+    width: 50%;
+  }
+}
+
+/* for small tablet to big tablet from 768 to 1023px */
+@media (max-width: 1023px) {
+  body {
+    font-size: 18px !important;
+  }
+  .app-screen {
+    width: 60%;
+  }
+}
+
+@media (max-width: 991px) {
+  .app-screen {
+    width: 80%;
+  }
+}
+/* for small tablet from 481 to 767px */
+@media (max-width: 767px) {
+  body {
+    font-size: 16px !important;
+  }
+  .app-screen {
+    width: 40%;
+  }
+}
+
+/* for small phones from 0 to 480px */
+@media only screen and(max-width:480px) {
+}
