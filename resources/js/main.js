@@ -59,5 +59,20 @@ $(document).ready(function () {
   });
 });
 
-// initiate wow.js
-new WOW().init();
+// // initiate wow.js
+// new WOW().init();
+
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "30px",
+  duration: 1500,
+  reset: false,
+});
+
+sr.reveal(
+  `.steps-box ,.box , .section-testimonials .row  ,.section-plans .row, .section-contact, .jumbotron ,
+  .section-testimonials .row , .section-steps .row , .section-features .row `,
+  {
+    interval: 200,
+  }
+);
